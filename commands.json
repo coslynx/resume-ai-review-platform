@@ -1,0 +1,9 @@
+{
+  "setup": "if [ ! -f .env ]; then touch .env; fi",
+  "install": "npm install --force",
+  "build": "npm run build",
+  "start": "npm run dev",
+  "test": "npm run test",
+  "lint": "npm run lint",
+  "clean": "rm -rf dist"
+}
