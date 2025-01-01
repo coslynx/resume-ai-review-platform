@@ -1,0 +1,7 @@
+<svg width="200" height="50" viewBox="0 0 200 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="200" height="50" fill="#102030"/>
+<text x="10" y="35" font-size="24" font-weight="bold" fill="white" font-family="Arial">AI Resume Review</text>
+    <path d="M170 10 L180 10 L180 40 L170 40 Z" fill="#3498db" />
+    <path d="M180 10 L190 20 L180 30 L180 10 Z" fill="#3498db" />
+    <path d="M190 20 L195 20 L195 25 L190 25 Z" fill="#3498db" />
+</svg>
