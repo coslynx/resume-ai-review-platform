@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans bg-gray-100 text-dark-gray;
+}
+
+h1 {
+  @apply text-4xl font-bold mb-4;
+}
+
+h2 {
+    @apply text-2xl font-bold mb-4;
+}
+
+h3 {
+  @apply text-xl font-semibold mb-2;
+}
+
+p {
+  @apply mb-4 text-base;
+}
+
+a {
+  @apply text-primary hover:underline;
+}
+
+form {
+  @apply bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4;
+}
+
+label {
+    @apply block text-gray-700 text-sm font-bold mb-2;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+ @apply shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50;
+}
+
+button {
+    @apply bg-primary text-white font-bold py-2 px-4 rounded hover:bg-opacity-80 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50;
+}
+
+.spinner-container {
+    @apply inline-block relative;
+}
+
+.spinner-animation {
+   border-top-color: transparent;
+}
+
+.button {
+    @apply bg-primary text-white font-bold py-2 px-4 rounded hover:bg-opacity-80 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50;
+}
+
+*:focus {
+    outline-color: theme(colors.primary);
+}
